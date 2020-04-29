@@ -1,0 +1,28 @@
+#imageMenu{
+    /*all text item in center*/
+    text-align: center;
+    /*position is where to locate this element*/
+    position: fixed;
+    /*screen bottom*/
+    bottom: 0px;
+    /**/
+    width: 100%;
+}
+#imageMenu ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#imageMenu li{
+    display: inline;
+}
+
+#imageMenu img{
+    width: 50px;
+    height: 50px;
+}
+
+#imageMenu img:hover{
+    width: 200px;
+    height: 200px;
+}
