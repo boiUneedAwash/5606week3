@@ -81,3 +81,19 @@ div{
     80% {background-color: crimson; left: 0px; top: 0px; font-size: 15px;}
     100% {background-color: black;}
 }
+
+#imageAnimation img{
+    /*transform: rotate(90deg);*/
+    /*transform-origin: 150px 0%;*/
+    animation-name: imageRotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /*transform: scale(2);*/
+    /*transform: translate(200px, 100px);*/
+    transform: skew(15deg, 15deg);
+}
+/*@keyframes create information in css*/
+@keyframes imageRotate {
+    from{transform: rotate(0deg)}
+    to{transform: rotate(359deg)}
+}
